@@ -1,7 +1,7 @@
 # A HTTP proxy for anonymous and fast browsing
 ### What it does ?
 
-- Proxy: Handle incomming HTTP requests, redirect the request to the desired host and give the result back to the client.
+- Proxy: Handle incomming HTTP requests, redirect the requests to the desired host and give the result back to the client.
 - Chaching: A visited page is stored in a Redis databse. When visiting a page already cached, the cached page is returned
 - Blacklisting: Block some request based on the host. Ruby regex can be used
 - Logging: To logstash which parse it, save it to elasticsearch. After that, logs can be visualized with kibana.
